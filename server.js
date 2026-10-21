@@ -4,7 +4,7 @@
     const app = express();
 
     app.use('/', createProxyMiddleware({
-      target: 'https://bpay.binanceapi.com',
+      target: 'https://api.binance.com',
       changeOrigin: true
     }));
 
